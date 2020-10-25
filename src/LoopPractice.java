@@ -29,6 +29,17 @@ public class LoopPractice {
         }
 
     }
+    public void loop3(){
+        int k=1;
+        for(int j=0;j<6;j++){
+         for (int i=1;i<=j+1;i++){
+            System.out.print("@");
+        }System.out.print("\n");
+        }
+
+
+    }
+
 
 
 }

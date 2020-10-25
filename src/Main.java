@@ -4,7 +4,8 @@ public class Main {
         practice.loop1();
         System.out.print("\n\n");
         practice.loop2();
-
+        System.out.print("\n\n");
+        practice.loop3();
 
     }
 }

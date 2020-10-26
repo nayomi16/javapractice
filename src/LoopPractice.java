@@ -82,6 +82,16 @@ public class LoopPractice {
         }
     }
 
+    public void loop5(){
+
+        for(int i=0;i<5;i++){
+            for(int j=0;j<8;j++){
+                System.out.print("B");
+            }
+            System.out.print("\n");
+        }
+    }
+
 
 
 }

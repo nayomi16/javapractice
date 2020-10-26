@@ -7,7 +7,9 @@ public class Main {
         System.out.print("\n\n");
         practice.loop3();
         System.out.print("\n\n");
-        practice.loop4();;
+        practice.loop4();
+        System.out.print("\n\n");
+        practice.loop5();
 
     }
 }

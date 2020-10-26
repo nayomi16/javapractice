@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class LoopPractice {
 
     public void loop1(){
@@ -90,6 +92,32 @@ public class LoopPractice {
             }
             System.out.print("\n");
         }
+    }
+
+    public void loop6(){
+        int i=0;
+        int[] arry=new int[10];
+        while (i<10) {
+            Scanner sc = new Scanner(System.in);
+            int y=sc.nextInt();
+            arry[i]=y;
+            i++;
+
+        }
+        int min=arry[0];
+        int max=arry[0];
+        for (int j=1;j<10;j++){
+            if(min>arry[j]){
+                min=arry[j];
+            }
+
+            if(max<arry[j]){
+                max=arry[j];
+            }
+
+        }
+        System.out.println("min= "+min);
+        System.out.println("max= "+max);
     }
 
 

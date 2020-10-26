@@ -6,6 +6,8 @@ public class Main {
         practice.loop2();
         System.out.print("\n\n");
         practice.loop3();
+        System.out.print("\n\n");
+        practice.loop4();;
 
     }
 }

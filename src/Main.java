@@ -10,10 +10,12 @@ public class Main {
         practice.loop4();
         System.out.print("\n\n");
         practice.loop5();
+//        System.out.print("\n\n");
+//        practice.loop6();
+//        System.out.print("\n\n");
+//        practice.loop7();
         System.out.print("\n\n");
-        practice.loop6();
-        System.out.print("\n\n");
-        practice.loop7();
+        practice.loop8();
 
     }
 }

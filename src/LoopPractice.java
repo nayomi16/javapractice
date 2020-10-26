@@ -134,4 +134,24 @@ public class LoopPractice {
 
     }
 
+    public void loop8(){
+        int mulodd=1;
+        int sumeven=0;
+        for(int i=1;i<=20;i++){
+            if(i%2==1){
+                System.out.println(i);
+                mulodd=mulodd*i;
+            }
+
+        }
+        for(int i=1;i<=100;i++){
+
+            if(i%2==0){
+                sumeven=sumeven+i;
+            }
+        }
+        System.out.println("multification of odd numbers 1 to 20= "+mulodd);
+        System.out.println("sum of even numbers 1 to 100= "+sumeven);
+    }
+
 }

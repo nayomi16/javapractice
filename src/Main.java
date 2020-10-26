@@ -12,6 +12,8 @@ public class Main {
         practice.loop5();
         System.out.print("\n\n");
         practice.loop6();
+        System.out.print("\n\n");
+        practice.loop7();
 
     }
 }

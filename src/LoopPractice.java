@@ -120,6 +120,18 @@ public class LoopPractice {
         System.out.println("max= "+max);
     }
 
+    public void loop7(){
+        int i=0;
+        int result=1;
+        Scanner sc=new Scanner(System.in);
+        int base=sc.nextInt();
+        int ex=sc.nextInt();
+        do{
+            result=result*base;
+            i++;
+        }while(i<ex);
+        System.out.println(result);
 
+    }
 
 }

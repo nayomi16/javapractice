@@ -169,8 +169,55 @@ public class LoopPractice {
                 System.out.print("$");
 
             }k++;
+            System.out.println("\t");
+        }
+    }
+
+    public void loop10(){
+        int k=0;
+        int p=5;
+        for(int i=1;i<7;i++){
+            for (int l=1;l<=i+p;l++){
+                System.out.print(" ");
+            }p=p-2;
+            System.out.print(" #");
+            for (int j=1;j<=i+k;j++){
+                if(j==i+1) {
+                    System.out.print("#");
+                }else{
+                    System.out.print("  ");
+                }
+            }k++;
+
             System.out.println("");
         }
+        System.out.println("");
+        for(int i=6;i>0;i--){
+            System.out.print("#");
+            System.out.print("  ");
+        }
+
+    }
+
+    public void loop11(){
+        int k=0;
+        int p=5;
+        for(int i=1;i<=7;i++){
+            for (int l=1;l<=i+p;l++){
+                System.out.print(" ");
+            }p=p-2;
+            System.out.print("#");
+            for (int j=1;j<=i+k;j++){
+                if(j==i) {
+                    System.out.print("#");
+                }else{
+                    System.out.print("\t");
+                }
+            }k++;
+
+            System.out.println("");
+        }
+
     }
 
 }

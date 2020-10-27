@@ -20,6 +20,9 @@ public class Main {
         practice.loop8();
         System.out.print("\n\n");
         practice.loop9();
+        System.out.print("\n\n");
+        practice.loop10();
+
 
     }
 }

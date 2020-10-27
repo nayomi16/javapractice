@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class LoopPractice {
 
+
+
+    static String h="jjj";
     public void loop1(){
 
         for(int i=0;i<6;i++){
@@ -152,6 +155,22 @@ public class LoopPractice {
         }
         System.out.println("multification of odd numbers 1 to 20= "+mulodd);
         System.out.println("sum of even numbers 1 to 100= "+sumeven);
+    }
+
+    public void loop9(){
+        int k=1;
+        int p=5;
+        for(int i=1;i<=7;i++){
+            for (int l=1;l<=i+p;l++){
+                System.out.print(" ");
+            }p=p-2;
+
+            for (int j=1;j<=i+k;j++){
+                System.out.print("$");
+
+            }k++;
+            System.out.println("");
+        }
     }
 
 }
